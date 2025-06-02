@@ -1,7 +1,5 @@
 # DataChallenge-M2MIAS
 
-# mon_analyse_simple/README.md
-
 Description
 
 For this competition, we have created a dataset containing laboratory analyses for several thousand patients. Each matrix in the dataset corresponds to the biological history of a patient - that is to say, all of their biological results on a 12-month period.
