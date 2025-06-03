@@ -1,6 +1,6 @@
 # DataChallenge-M2MIAS
 
-Description
+## Description
 
 For this competition, we have created a dataset containing laboratory analyses for several thousand patients. Each matrix in the dataset corresponds to the biological history of a patient - that is to say, all of their biological results on a 12-month period.
 
@@ -31,7 +31,7 @@ import pandas as pd
 
 labels = pd.read_csv("[PATH_TO_FILE]/training_labels.csv")
 
-Evaluation
+## Evaluation
 
 Submissions are evaluated on F1 score between the predicted probability and the observed target.
 Submission File
@@ -108,24 +108,7 @@ Tip: Since you do not have the labels for the evaluation data, it is recommended
 1.  Placez votre fichier de données (par exemple, `donnees_brutes.csv`) dans le dossier `data/`.
 2.  Ouvrez JupyterLab (`jupyter lab`).
 3.  Créez un nouveau notebook dans le dossier `notebooks/` (par exemple, `analyse_exploratoire.ipynb`).
-4.  Dans le notebook, importez les bibliothèques nécessaires :
-    ```python
-    import pandas as pd
-    import numpy as np
-    import matplotlib.pyplot as plt
-    import seaborn as sns
-
-    # Configuration de style pour Seaborn (optionnel)
-    sns.set_theme(style="whitegrid")
-    ```
-5.  Chargez vos données :
-    ```python
-    df = pd.read_csv('../data/donnees_brutes.csv') # Ajustez le chemin si besoin
-    print(df.head())
-    print(df.info())
-    print(df.describe())
-    ```
-6.  Procédez à votre analyse, visualisations, etc.
+4.  Procédez à votre analyse, visualisations, etc.
 
 ## Pour mettre à jour `requirements.txt`
 
